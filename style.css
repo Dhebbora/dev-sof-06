@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+
+    background-color: rgb(225, 244, 238);
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    color: rgb(12, 124, 87);
+
+  }
+  .prodDisp{
+    color: rgb(12, 124, 87);
+  }
+  .containerProd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 15px 60px;
+  }
+
+  /* COMPRINHAS */
+   .containerComp{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 0px 60px;
+    color: rgb(12, 124, 87);
+  }
+  .cardComp{
+    color: azure;
+    background-color: rgb(82, 83, 139);
+    width: 30%;
+  }
+  .cactimg{
+    width: 245px;
+    
+  }
+  .card-listinha{
+    width: 25%;
+  }
+  .card-img{
+    width: 20%;
+    
+  }
+  .comprinhas{
+    display: flex;
+    justify-content: center;
+  }
+  .produtinhos {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .produtinhos, th, td {
+    border: 1px solid rgb(5, 142, 72);
+    padding: 8px;
+  }
+  
+  .formCarrinho {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ipt-form{
+    padding: 8px;
+    width: 331px;
+  }
+
+  .btn-comprinhas {
+    color: rgb(251, 251, 251);
+    background-color: rgb(82, 83, 139);
+    border-radius: 45px;
+    height: 45px;
+    border: none;
+    padding: 5px 10px;
+  }
+
+  

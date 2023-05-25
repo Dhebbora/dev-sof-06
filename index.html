@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>vendas de flores</title>
+</head>
+<body>
+
+    <h1 class="title">Floricultura</h1>
+
+  <section class="containerProd">
+    <h2 class="prodDisp">Produtos Disponíveis</h2>
+    <table class="produtinhos" id="produtos">
+      <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rosa do deserto</td>
+            <td>5.00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Comigo ninguém pode</td>
+            <td>8.50</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Margarida</td>
+            <td>3.50</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Suculenta</td>
+            <td>8.00</td>
+            <td>130</td>
+        </tr>
+        <tr>
+            <td>Samambaia</td>
+            <td>21.00</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Cactos</td>
+            <td>12.00</td>
+            <td>60</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+    
+  
+  
+  
+  <section class="containerComp">
+    <div class="cardComp">
+        <h2 class="comprinhas">Minhas Compras</h2>
+        <ul id="compras"></ul>
+    </div>
+
+    <div class="card-img">
+        <img class="cactimg" src="/assets/img-cacto.png" alt="imagem de um cacto">
+    </div>
+
+    <div class="card-listinha">
+        <h2>Realizar Compra</h2>
+        <form class="formCarrinho" id="compra-form">
+          <label for="produto">Produto:</label>
+          <select class="ipt-form" id="produto">
+            <option value="Rosa do deserto">Rosa do deserto</option>
+            <option value="Comigo ninguém pode">Comigo ninguém pode</option>
+            <option value="Margarida">Margarida</option>
+            <option value="Suculenta">Suculenta</option>
+            <option value="Samambaia">Samambaia</option>
+            <option value="Cactos">Cactos</option>
+          </select><br>
+      
+          <label for="quantidade">Quantidade:</label>
+          <input class="ipt-form" type="number" id="quantidade"><br>
+      
+          <button class="btn-comprinhas" type="button" onclick="comprar()">Comprar</button>
+        </form>
+    </div>
+  </section>
+    
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
